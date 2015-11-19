@@ -1,6 +1,8 @@
 
 "Merge two log files"
 
+from __future__ import print_function
+
 import re
 import heapq
 # select lines w/ timestamp
@@ -10,4 +12,4 @@ with open('inventory.log') as inventory:
         inventory_lines = (line for line in inventory if timestamped_lines.match(line))
         ifm_inventory_lines = (line for line in ifm_inventory if timestamped_lines.match(line))
         for n, line in enumerate(heapq.merge(inventory_lines, ifm_inventory_lines)):
-            print n, line.strip()
+            print(n, line.strip())
