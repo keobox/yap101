@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nf:rpc-reply xmlns:nf="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns="http://www.cisco.com/nxos:7.2.0.D1.1.:lcmcli">
+ <nf:data>
+  <show>
+   <module>
+    <__readonly__>
+     <TABLE_modinfo>
+      <ROW_modinfo>
+       <modinf>1</modinf>
+       <ports>32</ports>
+       <modtype>10 Gbps Ethernet Module</modtype>
+       <model>N7K-M132XP-12</model>
+       <status>ok</status>
+      </ROW_modinfo>
+      <ROW_modinfo>
+       <modinf>2</modinf>
+       <ports>4</ports>
+       <modtype>Network Analysis Module NAM-NX1</modtype>
+       <model>N7K-SM-NAM-K9</model>
+       <status>powered-dn</status>
+      </ROW_modinfo>
+      <ROW_modinfo>
+       <modinf>3</modinf>
+       <ports>4</ports>
+       <modtype>Network Analysis Module NAM-NX1</modtype>
+       <model>N7k-SM-NAM-9G-K9</model>
+       <status>powered-dn</status>
+      </ROW_modinfo>
+      <ROW_modinfo>
+       <modinf>5</modinf>
+       <ports>0</ports>
+       <modtype>Supervisor Module-1X</modtype>
+       <model>N7K-SUP1</model>
+       <status>active *</status>
+      </ROW_modinfo>
+      <ROW_modinfo>
+       <modinf>6</modinf>
+       <ports>0</ports>
+       <modtype>Supervisor Module-1X</modtype>
+       <model></model>
+       <status>powered-dn</status>
+      </ROW_modinfo>
+      <ROW_modinfo>
+       <modinf>7</modinf>
+       <ports>48</ports>
+       <modtype>10/100/1000 Mbps Ethernet Module</modtype>
+       <model>N7K-M148GT-11</model>
+       <status>ok</status>
+      </ROW_modinfo>
+      <ROW_modinfo>
+       <modinf>8</modinf>
+       <ports>4</ports>
+       <modtype>Network Analysis Module NAM-NX1</modtype>
+       <model>N7K-SM1-NAM-a21</model>
+       <status>ok</status>
+      </ROW_modinfo>
+     </TABLE_modinfo>
+     <TABLE_modpwrinfo>
+      <ROW_modpwrinfo>
+       <modpwr>2</modpwr>
+       <pwrstat>powered-dn</pwrstat>
+       <reason>Configured Power down</reason>
+      </ROW_modpwrinfo>
+      <ROW_modpwrinfo>
+       <modpwr>3</modpwr>
+       <pwrstat>powered-dn</pwrstat>
+       <reason>Configured Power down</reason>
+      </ROW_modpwrinfo>
+      <ROW_modpwrinfo>
+       <modpwr>6</modpwr>
+       <pwrstat>powered-dn</pwrstat>
+       <reason>Policy trigger initiated reset: Stdby has lower mem than active</reason>
+      </ROW_modpwrinfo>
+     </TABLE_modpwrinfo>
+     <TABLE_modwwninfo>
+      <ROW_modwwninfo>
+       <modwwn>1</modwwn>
+       <sw>7.2(0)D1(0.392)</sw>
+       <hw>2.3</hw>
+      </ROW_modwwninfo>
+      <ROW_modwwninfo>
+       <modwwn>5</modwwn>
+       <sw>7.2(0)D1(0.392)</sw>
+       <hw>1.6</hw>
+      </ROW_modwwninfo>
+      <ROW_modwwninfo>
+       <modwwn>7</modwwn>
+       <sw>7.2(0)D1(0.392)</sw>
+       <hw>1.9</hw>
+      </ROW_modwwninfo>
+      <ROW_modwwninfo>
+       <modwwn>8</modwwn>
+       <sw>7.2(0)D1(0.392)</sw>
+       <hw>0.403</hw>
+      </ROW_modwwninfo>
+     </TABLE_modwwninfo>
+     <TABLE_modapplinfo>
+      <ROW_modapplinfo>
+       <modappl>8</modappl>
+       <desc>Application linecard image</desc>
+       <applver>6.2(1-Eng)</applver>
+       <appstatus>ok</appstatus>
+      </ROW_modapplinfo>
+     </TABLE_modapplinfo>
+     <TABLE_modmacinfo>
+      <ROW_modmacinfo>
+       <modmac>1</modmac>
+       <mac> c8-4c-75-c9-0f-1c to c8-4c-75-c9-0f-3f  </mac>
+       <serialnum>JAF1424CAEP</serialnum>
+      </ROW_modmacinfo>
+      <ROW_modmacinfo>
+       <modmac>5</modmac>
+       <mac> f8-66-f2-0a-d2-f0 to f8-66-f2-0a-d2-f7  </mac>
+       <serialnum>JAF1433BBNL</serialnum>
+      </ROW_modmacinfo>
+      <ROW_modmacinfo>
+       <modmac>7</modmac>
+       <mac> 64-9e-f3-af-b5-6c to 64-9e-f3-af-b5-9f  </mac>
+       <serialnum>JAF1547AGPT</serialnum>
+      </ROW_modmacinfo>
+      <ROW_modmacinfo>
+       <modmac>8</modmac>
+       <mac> 00-22-bd-f2-23-3f to 00-22-bd-f2-23-46  </mac>
+       <serialnum>JAF1630BBKL</serialnum>
+      </ROW_modmacinfo>
+     </TABLE_modmacinfo>
+     <TABLE_moddiaginfo>
+      <ROW_moddiaginfo>
+       <mod>1</mod>
+       <diagstatus>Pass</diagstatus>
+      </ROW_moddiaginfo>
+      <ROW_moddiaginfo>
+       <mod>5</mod>
+       <diagstatus>Pass</diagstatus>
+      </ROW_moddiaginfo>
+      <ROW_moddiaginfo>
+       <mod>7</mod>
+       <diagstatus>Pass</diagstatus>
+      </ROW_moddiaginfo>
+      <ROW_moddiaginfo>
+       <mod>8</mod>
+       <diagstatus>Pass</diagstatus>
+      </ROW_moddiaginfo>
+     </TABLE_moddiaginfo>
+     <TABLE_xbarinfo>
+      <ROW_xbarinfo>
+       <xbarinf>1</xbarinf>
+       <xbarports>0</xbarports>
+       <xbartype>Fabric Module 1</xbartype>
+       <xbarmodel>N7K-C7010-FAB-1</xbarmodel>
+       <xbarstatus>ok</xbarstatus>
+      </ROW_xbarinfo>
+      <ROW_xbarinfo>
+       <xbarinf>2</xbarinf>
+       <xbarports>0</xbarports>
+       <xbartype>Fabric Module 1</xbartype>
+       <xbarmodel>N7K-C7010-FAB-1</xbarmodel>
+       <xbarstatus>ok</xbarstatus>
+      </ROW_xbarinfo>
+      <ROW_xbarinfo>
+       <xbarinf>3</xbarinf>
+       <xbarports>0</xbarports>
+       <xbartype>Fabric Module 1</xbartype>
+       <xbarmodel>N7K-C7010-FAB-1</xbarmodel>
+       <xbarstatus>ok</xbarstatus>
+      </ROW_xbarinfo>
+     </TABLE_xbarinfo>
+     <TABLE_xbarwwninfo>
+      <ROW_xbarwwninfo>
+       <xbarwwn>1</xbarwwn>
+       <xbarsw>NA</xbarsw>
+       <xbarhw>1.1</xbarhw>
+      </ROW_xbarwwninfo>
+      <ROW_xbarwwninfo>
+       <xbarwwn>2</xbarwwn>
+       <xbarsw>NA</xbarsw>
+       <xbarhw>1.1</xbarhw>
+      </ROW_xbarwwninfo>
+      <ROW_xbarwwninfo>
+       <xbarwwn>3</xbarwwn>
+       <xbarsw>NA</xbarsw>
+       <xbarhw>1.1</xbarhw>
+      </ROW_xbarwwninfo>
+     </TABLE_xbarwwninfo>
+     <TABLE_xbarmacinfo>
+      <ROW_xbarmacinfo>
+       <xbarmac>1</xbarmac>
+       <xbarmacaddr> NA                                      </xbarmacaddr>
+       <xbarserialnum>JAF1432CBCP</xbarserialnum>
+      </ROW_xbarmacinfo>
+      <ROW_xbarmacinfo>
+       <xbarmac>2</xbarmac>
+       <xbarmacaddr> NA                                      </xbarmacaddr>
+       <xbarserialnum>JAF1433BNAR</xbarserialnum>
+      </ROW_xbarmacinfo>
+      <ROW_xbarmacinfo>
+       <xbarmac>3</xbarmac>
+       <xbarmacaddr> NA                                      </xbarmacaddr>
+       <xbarserialnum>JAF1432DDEK</xbarserialnum>
+      </ROW_xbarmacinfo>
+     </TABLE_xbarmacinfo>
+    </__readonly__>
+   </module>
+  </show>
+ </nf:data>
+</nf:rpc-reply>
+

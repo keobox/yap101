@@ -12,7 +12,7 @@ for current_dir, dirs, files in os.walk('.'):
         with open(filename, 'rb') as f:
             text = f.read()
         if current in text:
-            print filename
+            print(filename)
             text.replace(current, new)
             with open(filename + '.new', 'wb') as f:
                 f.write(text)
