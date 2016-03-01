@@ -5,6 +5,7 @@ import sys
 import os
 
 current, new = sys.argv[1:3]
+print current, new
 
 for current_dir, dirs, files in os.walk('.'):
     for fn in files:
@@ -13,7 +14,9 @@ for current_dir, dirs, files in os.walk('.'):
             text = f.read()
         if current in text:
             print(filename)
+            print text
             text.replace(current, new)
+            print text
             with open(filename + '.new', 'wb') as f:
                 f.write(text)
             os.rename(filename, filename + '.bak')
